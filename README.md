@@ -150,11 +150,3 @@ License & Contact
 - License: MIT (or change to your preferred license)
 - Contact: https://github.com/HarshXAI
 
----
-
-If you want, I can:
-- Open a pull request that updates README.md directly in this repository
-- Tailor the "Role & Outcomes" section with exact metrics (training time saved, model size reduction, etc.) if you provide them
-- Add a short demo GIF or screenshot and update the README to include it
-
-Tell me which of those you'd like me to do next and whether to commit the README change directly to main or via a PR.
