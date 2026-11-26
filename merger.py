@@ -12,7 +12,7 @@ base_model = AutoModelForCausalLM.from_pretrained(
 )
 
 # 🔹 Load LoRA adapter weights
-lora_model = PeftModel.from_pretrained(base_model, "/Users/harshkanani/Desktop/synergy/phishing_finetuned_model")
+lora_model = PeftModel.from_pretrained(base_model, "./phishing_finetuned_model")
 
 # 🔹 Merge LoRA weights with the base model
 merged_model = lora_model.merge_and_unload()

@@ -17,7 +17,7 @@ for package in $PACKAGES; do
 done
 
 # Check if adapter directory exists
-ADAPTER_DIR="/Users/harshkanani/Desktop/synergy/phishing_finetuned_model"
+ADAPTER_DIR="./phishing_finetuned_model"
 if [ ! -d "$ADAPTER_DIR" ]; then
     echo "❌ Adapter directory not found: $ADAPTER_DIR"
     exit 1

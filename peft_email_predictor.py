@@ -100,7 +100,7 @@ def main():
     parser = argparse.ArgumentParser(description="Detect phishing emails using PEFT-fine-tuned language model")
     parser.add_argument("--email", type=str, help="Email text to analyze")
     parser.add_argument("--file", type=str, help="Path to file containing email text")
-    parser.add_argument("--model", type=str, default="/Users/harshkanani/Desktop/synergy/phishing_finetuned_model", 
+    parser.add_argument("--model", type=str, default="./phishing_finetuned_model", 
                        help="Path to adapter directory")
     parser.add_argument("--verbose", action="store_true", help="Print verbose output")
     parser.add_argument("--base-model", type=str, help="Override base model specified in adapter config")
